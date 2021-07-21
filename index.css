@@ -117,6 +117,14 @@ section {
     font-weight: 900;
 }
 
+.video__part__text {
+    margin-top: 2rem;
+    color: #1d3557;
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-align: center;
+}
+
 /* .home__image__text{
     display: none;
     position: absolute;
