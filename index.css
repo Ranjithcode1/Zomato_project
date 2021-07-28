@@ -116,6 +116,7 @@ section {
 
 .video__footage__container {
     width: 100%;
+    height: auto;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
