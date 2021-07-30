@@ -163,6 +163,7 @@ section {
     width: 100%;
     border-radius: 6px 6px 0 0;
 }
+
 .food__menu__card__image {
     width: 100%;
     border-radius: 6px 6px 0 0;
@@ -184,7 +185,7 @@ section {
     padding: 1rem;
 }
 
-.food__menu__card__list{
+.food__menu__card__list {
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -213,7 +214,7 @@ section {
     margin: 0 4px;
     width: 130px;
     height: 80px;
-} 
+}
 
 .restaurant2,
 .restaurant3 {
@@ -222,7 +223,7 @@ section {
     margin: 0 4px;
     width: 180px;
     height: 100px;
-} 
+}
 
 .restaurant__list__text {
     width: 100%;
@@ -230,6 +231,16 @@ section {
 
 .restaurant__image__container {
     margin-top: 1rem;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 3rem;
 }
 
 
@@ -261,19 +272,22 @@ section {
         font-weight: 500;
         font-size: 1.2rem;
     }
-    .food__menu__card__list{
+
+    .food__menu__card__list {
         flex-direction: row;
         padding: 2rem;
     }
 
-    .food__menu__card__list > div:nth-child(2) {
+    .food__menu__card__list>div:nth-child(2) {
         margin-top: -1rem;
         margin-bottom: 1rem;
     }
+
     .food__list__container {
         margin: 4rem 0;
     }
-    .food__menu__list__container__diagonal{
+
+    .food__menu__list__container__diagonal {
         position: absolute;
         left: 0;
         top: 0;
@@ -296,7 +310,7 @@ section {
         width: 50%;
     }
 
-    
+
 }
 
 @media (min-width:1024px) {
@@ -330,7 +344,25 @@ section {
         width: 60%;
         font-weight: 500;
     }
-    
+
+    .restaurant1,
+    .restaurant4 {
+
+        border-radius: 4px;
+        margin: 0 4px;
+        width: 230px;
+        height: 170px;
+    }
+
+    .restaurant2,
+    .restaurant3 {
+
+        border-radius: 4px;
+        margin: 0 4px;
+        width: 280px;
+        height: 200px;
+    }
+
 }
 
 @media (min-width: 1280px) {
